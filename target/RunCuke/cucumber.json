@@ -1,0 +1,858 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6006030800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should be navigated to CellPhone page successfully",
+        "description": "",
+        "id": "electronic-test;user-should-be-navigated-to-cellphone-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 686654500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 222501100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "ElectronicSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 289951600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I mouse hover on electronics",
+            "match": {
+              "location": "ElectronicSteps.iMouseHoverOnElectronics()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1473440100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select \"Cell phones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cell phones",
+                  "offset": 10
+                }
+              ],
+              "location": "ElectronicSteps.iSelect(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74604200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should navigated to cellphone page using \"Cell phones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cell phones",
+                  "offset": 47
+                }
+              ],
+              "location": "ElectronicSteps.userShouldNavigatedToCellphonePageUsing(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 4,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Electronic Test",
+    "description": "As a user I want to check electronic page",
+    "id": "electronic-test",
+    "keyword": "Feature",
+    "uri": "electronic.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3222241800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User should navigate to Top menu bar",
+        "description": "",
+        "id": "top-menu-test;user-should-navigate-to-top-menu-bar;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 708890100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 100100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 694871400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select \"Computers\" from top bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Computers",
+                  "offset": 10
+                }
+              ],
+              "location": "TopMenuSteps.iSelectFromTopBar(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should successfully navigate to the menu page",
+            "match": {
+              "location": "TopMenuSteps.iShouldSuccessfullyNavigateToTheMenuPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 67246500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the \"Computers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Computers",
+                  "offset": 18
+                }
+              ],
+              "location": "TopMenuSteps.iShouldSeeThe(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3092255300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User should navigate to Top menu bar",
+        "description": "",
+        "id": "top-menu-test;user-should-navigate-to-top-menu-bar;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 706838000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 65500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 844391000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select \"Electronics\" from top bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Electronics",
+                  "offset": 10
+                }
+              ],
+              "location": "TopMenuSteps.iSelectFromTopBar(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should successfully navigate to the menu page",
+            "match": {
+              "location": "TopMenuSteps.iShouldSuccessfullyNavigateToTheMenuPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58980400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the \"Electronics\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Electronics",
+                  "offset": 18
+                }
+              ],
+              "location": "TopMenuSteps.iShouldSeeThe(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2707468700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User should navigate to Top menu bar",
+        "description": "",
+        "id": "top-menu-test;user-should-navigate-to-top-menu-bar;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 692362600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 49300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 868349900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select \"Apparel\" from top bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Apparel",
+                  "offset": 10
+                }
+              ],
+              "location": "TopMenuSteps.iSelectFromTopBar(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should successfully navigate to the menu page",
+            "match": {
+              "location": "TopMenuSteps.iShouldSuccessfullyNavigateToTheMenuPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 64438500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the \"Apparel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Apparel",
+                  "offset": 18
+                }
+              ],
+              "location": "TopMenuSteps.iShouldSeeThe(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2873390500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User should navigate to Top menu bar",
+        "description": "",
+        "id": "top-menu-test;user-should-navigate-to-top-menu-bar;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 692843100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 70100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1508670000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select \"Digital downloads\" from top bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Digital downloads",
+                  "offset": 10
+                }
+              ],
+              "location": "TopMenuSteps.iSelectFromTopBar(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should successfully navigate to the menu page",
+            "match": {
+              "location": "TopMenuSteps.iShouldSuccessfullyNavigateToTheMenuPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 42667700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the \"Digital downloads\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Digital downloads",
+                  "offset": 18
+                }
+              ],
+              "location": "TopMenuSteps.iShouldSeeThe(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2601717800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User should navigate to Top menu bar",
+        "description": "",
+        "id": "top-menu-test;user-should-navigate-to-top-menu-bar;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 725402200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 994175500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select \"Books\" from top bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Books",
+                  "offset": 10
+                }
+              ],
+              "location": "TopMenuSteps.iSelectFromTopBar(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should successfully navigate to the menu page",
+            "match": {
+              "location": "TopMenuSteps.iShouldSuccessfullyNavigateToTheMenuPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74770600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the \"Books\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Books",
+                  "offset": 18
+                }
+              ],
+              "location": "TopMenuSteps.iShouldSeeThe(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4616452900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "User should navigate to Top menu bar",
+        "description": "",
+        "id": "top-menu-test;user-should-navigate-to-top-menu-bar;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 920384500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 103500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2433646000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select \"Jewelry\" from top bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jewelry",
+                  "offset": 10
+                }
+              ],
+              "location": "TopMenuSteps.iSelectFromTopBar(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should successfully navigate to the menu page",
+            "match": {
+              "location": "TopMenuSteps.iShouldSuccessfullyNavigateToTheMenuPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 153580000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the \"Jewelry\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jewelry",
+                  "offset": 18
+                }
+              ],
+              "location": "TopMenuSteps.iShouldSeeThe(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3230268200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "User should navigate to Top menu bar",
+        "description": "",
+        "id": "top-menu-test;user-should-navigate-to-top-menu-bar;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 888060200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 39100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1081533900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select \"Gift Cards\" from top bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gift Cards",
+                  "offset": 10
+                }
+              ],
+              "location": "TopMenuSteps.iSelectFromTopBar(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should successfully navigate to the menu page",
+            "match": {
+              "location": "TopMenuSteps.iShouldSuccessfullyNavigateToTheMenuPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 64319500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the \"Gift Cards\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gift Cards",
+                  "offset": 18
+                }
+              ],
+              "location": "TopMenuSteps.iShouldSeeThe(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Top Menu Test",
+    "description": "As a User I want to navigate to Top menu bar",
+    "id": "top-menu-test",
+    "keyword": "Feature",
+    "uri": "topMenu.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@smoke"
+      }
+    ]
+  }
+]
